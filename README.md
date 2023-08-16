@@ -6,6 +6,9 @@ To help speed up add-on development.
 | -- | -- |
 | qt-addon-browser  | default add-on browser in Preferences  | 
 
+## Requirements
+- [bqt](https://github.com/techartorg/bqt)
+
 ## Feature planned
 
 ### Main prio:
