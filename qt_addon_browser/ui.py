@@ -81,7 +81,7 @@ def open_documentation(self, addon, parent):
 
 class AddonUI(QtWidgets.QWidget):
     def __init__(self):
-        super().__init__()
+        super().__init__(objectName="addon_manager_main_widget")
         self.setWindowTitle("Blender Addon Manager")
         self.setMinimumWidth(400)
 
