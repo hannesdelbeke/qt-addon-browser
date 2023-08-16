@@ -15,7 +15,7 @@ To help speed up add-on development.
 - [x] no option to right click, open addon install directory
 
 ### copy default blender addon manager features
-- [ ] enable disable
+- [x] enable disable
 - [x] list all addons
 - [x] search addons by name
 - [x] show explorer path (but no copy)
