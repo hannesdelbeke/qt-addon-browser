@@ -1,11 +1,27 @@
 # qt-addon-browser
-A add-on browser widget, to quickly open blender addon folders in explorer
+A add-on browser widget, to quickly open blender add-on folders in explorer.
+To help speed up add-on development.
 
-## Goals
+| ![image](https://github.com/hannesdelbeke/qt-addon-browser/assets/3758308/6406ff21-28eb-47fc-a9c5-e530c98789c1) | ![image](https://github.com/hannesdelbeke/qt-addon-browser/assets/3758308/9ce48dba-dc13-497e-9b16-9d380966bbd8) |
+| -- | -- |
+| qt-addon-browser  | default add-on browser in Preferences  | 
 
-main goal:
+## Feature planned
+
+### Main prio:
 - [x] no option to right click, open addon install directory
 
+### copy default blender addon manager features
+- [ ] enable disable
+- [x] list all addons
+- [x] search addons by name
+- [x] show explorer path (but no copy)
+- [x] docs button
+- [ ] bug report button
+- [ ] preferences
+- [ ] addon install
+
+### Stretch goals
 fix minor issues with the default addon browser 
 - [ ] shows all addons, no option to filter out default addons
 - [ ] no option to filter by directory
@@ -21,12 +37,3 @@ Wishlist
 	- [ ] other dependencies, e.g. blend files?
 - [ ] editable install (point to local addon working repo or project)
 
-### copy default blender addon manager features
-- [ ] enable disable
-- [x] list all addons
-- [x] search addons by name
-- [x] show explorer path (but no copy)
-- [x] docs button
-- [ ] bug report button
-- [ ] preferences
-- [ ] addon install
