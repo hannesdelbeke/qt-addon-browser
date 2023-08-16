@@ -37,3 +37,5 @@ Wishlist
 	- [ ] other dependencies, e.g. blend files?
 - [ ] editable install (point to local addon working repo or project)
 
+## Community
+- https://blenderartists.org/t/free-addon-browser/1478372
