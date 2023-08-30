@@ -1,5 +1,5 @@
 import logging
-
+import sys
 import bpy
 from PySide2 import QtWidgets, QtGui, QtCore
 import addon_utils
@@ -151,7 +151,7 @@ class AddonUI(QtWidgets.QWidget):
         # TODO add timer to check if addon is disabled outside of this ui
 
         # print(f"Checkbox enabled: {checkbox.isEnabled()}")
-        # checkbnox isEnabled always returns true atm.
+        # checkbox isEnabled always returns true atm.
 
         addon_module = addon["module"]
         addon_module_name = addon_module.__name__
